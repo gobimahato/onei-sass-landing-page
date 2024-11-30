@@ -35,7 +35,7 @@ export const LogoTicker = () => {
           pointer-events-none"
           ></div>
 
-          <div className="flex gap-16">
+          <div className="flex justify-center gap-16">
             {images.map(({ src, alt }, index) => (
               <Image
                 src={src}
