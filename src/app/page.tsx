@@ -1,3 +1,11 @@
-export default function Page() {
-  return <div>Hello Next.js</div>;
+import { Banner } from "@/components/Banner";
+import { Navbar } from "@/components/Navbar";
+
+export default function Home() {
+  return (
+    <>
+      <Banner />
+      <Navbar />
+    </>
+  );
 }
