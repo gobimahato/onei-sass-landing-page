@@ -22,7 +22,6 @@ export const Features = () => {
   return (
     <section className="bg-black text-white py-16 sm:py-20 md:py-24">
       <div className="container max-w-7xl px-4 sm:px-8 lg:px-16">
-        {/* Heading */}
         <h2 className="text-center font-bold text-4xl sm:text-5xl md:text-6xl leading-tight">
           Everything you need
         </h2>
@@ -34,7 +33,6 @@ export const Features = () => {
           </p>
         </div>
 
-        {/* Features Section */}
         <div className="mt-12 md:mt-16 grid gap-6 sm:gap-8 lg:gap-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {features.map(({ title, description }, index) => (
             <Feature title={title} description={description} key={index} />

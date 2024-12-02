@@ -52,6 +52,7 @@ const AccordianItem = ({
       <AnimatePresence>
         {isOpen && (
           <motion.div
+            
             initial={{ opacity: 0, height: 0, marginTop: 0 }}
             animate={{ opacity: 1, height: "auto", marginTop: 16 }}
             exit={{ opacity: 0, height: 0, marginTop: 0 }}
