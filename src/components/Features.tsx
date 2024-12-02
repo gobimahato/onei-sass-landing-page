@@ -20,7 +20,7 @@ const features = [
 
 export const Features = () => {
   return (
-    <div className="bg-black text-white py-[72px] sm:py-24">
+    <section className="bg-black text-white py-[72px] sm:py-24">
       <div className="container">
         <h2 className="text-center font-bold text-5xl sm:text-6xl tracking-lighter">
           Everyting you need
@@ -51,6 +51,6 @@ export const Features = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };

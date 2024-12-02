@@ -6,7 +6,7 @@ import messageImage from "../assets/images/message.png";
 
 export const Hero = () => {
   return (
-    <div
+    <section
       className="bg-black text-white py-[72px] sm:py-24 relative overflow-clip
     bg-[linear-gradient(to_bottom,#000,#200d42_34%,#4f21a1_65%,#a46edb_82%)] "
     >
@@ -74,6 +74,6 @@ export const Hero = () => {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

@@ -4,7 +4,7 @@ import appScreen from "../assets/images/app-screen.png";
 
 export const ProductShowcase = () => {
   return (
-    <div
+    <section
       className="bg-black text-white bg-gradient-to-b from-black to-[#5d2cab]
     py-[72px] sm:py-24"
     >
@@ -19,8 +19,10 @@ export const ProductShowcase = () => {
             one task at a time.
           </p>
         </div>
-        <Image src={appScreen} alt="The Product Showcase" className="mt-14" />
+        <div className="flex justify-center items-center">
+          <Image src={appScreen} alt="The Product Showcase" className="mt-14" />
+        </div>
       </div>
-    </div>
+    </section>
   );
 };

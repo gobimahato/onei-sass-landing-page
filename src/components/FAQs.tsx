@@ -38,7 +38,7 @@ const AccordianItem = ({
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div
+    <section
       className="py-7 border-b border-white/30"
       onClick={() => setIsOpen(!isOpen)}
     >
@@ -49,7 +49,7 @@ const AccordianItem = ({
       <div className={clsx("mt-4", { hidden: !isOpen, "": isOpen === true })}>
         {answer}
       </div>
-    </div>
+    </section>
   );
 };
 

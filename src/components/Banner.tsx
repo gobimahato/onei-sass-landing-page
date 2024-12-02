@@ -1,6 +1,6 @@
 export const Banner = () => {
   return (
-    <div className="py-3 text-center bg-custom-gradient">
+    <section className="py-3 text-center bg-custom-gradient">
       <div className="container">
         <div className="font-medium">
           <span className="hidden sm:inline">
@@ -11,6 +11,6 @@ export const Banner = () => {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
